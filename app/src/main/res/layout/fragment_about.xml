@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="15dp"
+    tools:context=".Navigation_fragments.About">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:text="ABOUT APPLICATION"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Our application helps the user to arrive to different
+ATM machines, That mobile
+application is connected to website
+application through API , so that we
+can get information from Bank
+website , therefore properties can be
+provided in the mobile application
+and will do methodology for machine learning
+using “AI“ that we can display the
+efficient ATM machine to user that
+meets all of his need in shortest time
+and save user’s time"
+                android:textSize="18sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="ABOUT SUPERVISOR"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dr. Ahmed Rafat is the owner of the idea
+and supervisor of this project and inspired us to all details of this project.
+\n\n
+
+Eng.Ahmed Elrefaey is a Technical Supervisor"
+                android:textSize="18sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="ABOUT TEAM MEMBERS"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Eng.Mohamed Alashker\n
+Eng.Mohamed Ramadan\n
+Eng.Mohamed Samy\n
+Eng.Taha Mohamed\n
+Eng.Ahmed Hasan\n
+Eng.Ahmed Samir"
+                android:textSize="18sp"
+                android:typeface="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

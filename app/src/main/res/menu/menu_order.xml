@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   >
+
+    <item
+        android:id="@+id/order_by_distance"
+        android:title="Orderd By Distance"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/order_by_balance"
+        android:title="Order By Balance"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/order_by_crowding"
+        android:title="Order By Crowding"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/order_by_suitable"
+        android:title="Suitable ATM"
+        app:showAsAction="never" />
+
+</menu>

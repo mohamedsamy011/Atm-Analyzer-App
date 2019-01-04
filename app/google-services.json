@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "978826770572",
+    "firebase_url": "https://atmlogin-61620.firebaseio.com",
+    "project_id": "atmlogin-61620",
+    "storage_bucket": "atmlogin-61620.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978826770572:android:0c9fadda8a634376",
+        "android_client_info": {
+          "package_name": "com.example.ezzeldeen.atm_exper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978826770572-2of24r8v7kk27vl1jsekvp6quiatesms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVe5FwktAvJmqOSV7gsQ8Ga7gq83g5EcM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

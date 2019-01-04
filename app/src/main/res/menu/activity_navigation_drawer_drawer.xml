@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home_icon"
+            android:title="Home (Suitable ATM)" />
+        <item
+            android:id="@+id/suit_ATM"
+            android:icon="@drawable/atm0022"
+            android:title="Suitable ATM" />
+        <item
+            android:id="@+id/ner_atm"
+            android:icon="@drawable/atm53128"
+            android:title="Nearest ATM" />
+       
+
+    </group>
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/info_blue"
+                android:title="About" />
+
+            <item android:id="@+id/FAQ"
+                android:icon="@drawable/icons8_faq_24"
+                android:title="FAQ"/>
+
+            <item
+                android:id="@+id/sinout"
+                android:icon="@drawable/smartphone"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu>
